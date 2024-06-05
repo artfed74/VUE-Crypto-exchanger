@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Inconsolata:wght@200&family=Nabla&family=Oswald:wght@200&family=Pacifico&family=Playfair+Display&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Inconsolata:wght@200&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nabla&family=Oswald:wght@200&family=Pacifico&family=Playfair+Display&display=swap');
+
+body{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(72,16,110,1) 35%, rgba(0,212,255,1) 100%);
+text-align: center;
+}
+h1{
+    color:white;
+    font-family: Nabla;
+    text-align: center;
+    font-size:5em;
+}
+input{
+    outline: none;
+    height: 40px;
+    width: 400px;
+    outline: none;
+    font-size: 20px;
+
+}
+ul{
+float: left;
+margin-right: 30px;
+}
+ul li{
+    color: white;
+    list-style: none;
+    font-size: 20px;
+    font-family: Montserrat;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(103,69,205,1) 35%, rgba(0,212,255,1) 100%);
+    transition: all 0.3s;
+    cursor: pointer;
+}
+ul li:hover,li.active{
+
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(31,9,98,1) 35%, rgba(0,212,255,1) 100%);
+}
+.selectors{
+    display: flex;
+    justify-content: center;
+    width: 700px;
+    margin: 0 auto;
+
+}
+button{
+    margin-top: 20px;
+    width: 150px;
+    height: 50px;
+    color: white;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(103,69,205,1) 35%, rgba(0,212,255,1) 100%);
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s;
+    border-radius: 5px;
+}
+button:hover{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(31,9,98,1) 35%, rgba(0,212,255,1) 100%);
+}
+p{
+    color: white;
+    font-family: Nabla;
+    font-size: 20px;
+}
